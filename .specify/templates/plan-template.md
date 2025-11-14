@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Code quality and maintainability risks identified? (Principle I)
+- Required automated tests for critical flows listed? (Principle II)
+- UX consistency with existing patterns confirmed? (Principle III)
+- Accessibility and inclusivity considerations captured? (Principle IV)
+- Target platforms, older devices, and performance budgets defined? (Principle V)
 
 ## Project Structure
 

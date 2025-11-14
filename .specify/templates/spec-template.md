@@ -104,7 +104,9 @@
 
 <!--
   ACTION REQUIRED: Define measurable success criteria.
-  These must be technology-agnostic and measurable.
+  These must be technology-agnostic and measurable, and MUST cover both
+  functional behavior and non-functional aspects such as accessibility,
+  UX consistency, performance, and platform support where relevant.
 -->
 
 ### Measurable Outcomes
