@@ -22,7 +22,7 @@ This document lists the main features (epics) for LumiBible and the recommended 
 ## Brief Description of Each Feature
 
 1. **CMS Core & Media Management (Foundations)**  
-   Role and permissions model (admin/editor/contributor), basic content models (Bible text, articles, media references), CRUD interfaces, simple versioning, and a media library for uploading and managing assets.
+   Role and permissions model (admin/contributor), basic content models (Bible text, articles, media references), CRUD interfaces, simple versioning, and a media library for uploading and managing assets.
 
 2. **Core Bible Reader & Basic Concordance**  
    Bible browsing by book/chapter/verse, simple Bible search, and a first concordance/lexicon view (even minimal) to support basic study.
