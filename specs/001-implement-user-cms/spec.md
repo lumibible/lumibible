@@ -1,4 +1,4 @@
-# Feature Specification: User CMS & Access Control
+# Feature Specification: User CMS
 
 **Feature Branch**: `001-implement-user-cms`  
 **Created**: 2025-11-15  
