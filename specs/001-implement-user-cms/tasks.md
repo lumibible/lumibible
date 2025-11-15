@@ -33,21 +33,21 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete.
 
-- [ ] T008 Setup Prisma schema and migrations in `backend/prisma/schema.prisma` for core entities (User, ApiKey, EmailVerificationToken, PasswordResetToken, UserSession)
-- [ ] T009 [P] Configure NestJS database module and Prisma client in `backend/src/database/`
-- [ ] T010 [P] Implement global configuration module for env vars in `backend/src/config/config.module.ts`
-- [ ] T011 [P] Implement logging and error-handling interceptors in `backend/src/common/`
-- [ ] T012 Implement Auth module skeleton (JWT, guards, decorators) in `backend/src/auth/`
-- [ ] T013 Implement Users module skeleton (controllers, services, DTOs) in `backend/src/users/`
-- [ ] T014 Implement API Keys module skeleton in `backend/src/api-keys/`
-- [ ] T015 Implement Tokens module skeleton (email verification + reset) in `backend/src/tokens/`
-- [ ] T016 Implement CMS access control module skeleton in `backend/src/cms/`
-- [ ] T017 Wire `/api/` routing and global prefix in `backend/src/app.module.ts` and `backend/src/main.ts`
-- [ ] T018 Setup basic frontend routing structure (auth, account, cms) in `frontend/src/app/` or `frontend/src/pages/`
-- [ ] T019 [P] Setup SCSS structure with ITCSS layers and tokens in `frontend/src/styles/`
-- [ ] T020 [P] Configure shared HTTP client and auth helpers in `frontend/src/lib/api-client/` and `frontend/src/lib/auth/`
-- [ ] T021 Configure Jest for backend unit and integration tests in `backend/jest.config.ts` and `backend/test/`
-- [ ] T022 Configure Jest (and optional Playwright scaffolding) for frontend tests in `frontend/jest.config.ts` and `frontend/test/`
+ - [X] T008 Setup Prisma schema and migrations in `backend/prisma/schema.prisma` for core entities (User, ApiKey, EmailVerificationToken, PasswordResetToken, UserSession)
+ - [X] T009 [P] Configure NestJS database module and Prisma client in `backend/src/database/`
+ - [X] T010 [P] Implement global configuration module for env vars in `backend/src/config/config.module.ts`
+ - [X] T011 [P] Implement logging and error-handling interceptors in `backend/src/common/`
+- [X] T012 Implement Auth module skeleton (JWT, guards, decorators) in `backend/src/auth/`
+- [X] T013 Implement Users module skeleton (controllers, services, DTOs) in `backend/src/users/`
+- [X] T014 Implement API Keys module skeleton in `backend/src/api-keys/`
+- [X] T015 Implement Tokens module skeleton (email verification + reset) in `backend/src/tokens/`
+- [X] T016 Implement CMS access control module skeleton in `backend/src/cms/`
+- [X] T017 Wire `/api/` routing and global prefix in `backend/src/app.module.ts` and `backend/src/main.ts`
+ - [X] T018 Setup basic frontend routing structure (auth, account, cms) in `frontend/src/app/` or `frontend/src/pages/`
+ - [X] T019 [P] Setup SCSS structure with ITCSS layers and tokens in `frontend/src/styles/`
+ - [X] T020 [P] Configure shared HTTP client and auth helpers in `frontend/src/lib/api-client/` and `frontend/src/lib/auth/`
+ - [X] T021 Configure Jest for backend unit and integration tests in `backend/jest.config.ts` and `backend/test/`
+ - [X] T022 Configure Jest (and optional Playwright scaffolding) for frontend tests in `frontend/jest.config.ts` and `frontend/test/`
 
 **Checkpoint**: Foundation ready — user story implementation can now begin in parallel.
 
