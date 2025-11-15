@@ -17,13 +17,13 @@
 
 **Purpose**: Project initialization and base structure for backend and frontend.
 
-- [ ] T001 Create backend NestJS project structure in `backend/` per plan.md
-- [ ] T002 Create frontend Next.js project structure in `frontend/` per plan.md
-- [ ] T003 [P] Initialize TypeScript, ESLint, and Prettier in `backend/`
-- [ ] T004 [P] Initialize TypeScript, ESLint, and Prettier in `frontend/`
-- [ ] T005 [P] Add basic Dockerfile for NestJS backend in `backend/Dockerfile`
-- [ ] T006 [P] Add basic Dockerfile for Next.js frontend in `frontend/Dockerfile`
-- [ ] T007 Configure root-level workspace settings for Node.js/TypeScript in `lumibible.code-workspace`
+- [X] T001 Create backend NestJS project structure in `backend/` per plan.md
+- [X] T002 Create frontend Next.js project structure in `frontend/` per plan.md
+- [X] T003 [P] Initialize TypeScript, ESLint, and Prettier in `backend/`
+- [X] T004 [P] Initialize TypeScript, ESLint, and Prettier in `frontend/`
+- [X] T005 [P] Add basic Dockerfile for NestJS backend in `backend/Dockerfile`
+- [X] T006 [P] Add basic Dockerfile for Next.js frontend in `frontend/Dockerfile`
+- [X] T007 Configure root-level workspace settings for Node.js/TypeScript in `lumibible.code-workspace`
 
 ---
 
