@@ -1,5 +1,4 @@
-"""
-ASGI config for lumibible project.
+"""ASGI config for lumibible project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

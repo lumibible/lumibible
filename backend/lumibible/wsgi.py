@@ -1,5 +1,4 @@
-"""
-WSGI config for lumibible project.
+"""WSGI config for lumibible project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

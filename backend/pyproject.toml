@@ -3,9 +3,23 @@ name = "lumibible-backend"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.14"
-dependencies = ["django>=5.2.8"]
+dependencies = [
+    "django>=5.2.8",
+    "python-dotenv>=1.2.1",
+]
 
 [dependency-groups]
-dev = [
-    "ruff>=0.14.7",
+dev = ["ruff>=0.14.7"]
+
+[tool.ruff]
+line-length = 100
+fix = true
+target-version = "py314"
+indent-width = 2
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+  "D104", # Docstring in __init__.py
+  "D213", # Incompatible with D212
 ]
