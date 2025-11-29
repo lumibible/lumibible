@@ -35,6 +35,5 @@
     "editor.rulers": [
       100,
     ],
-    "python.languageServer": "None"
   }
 }
