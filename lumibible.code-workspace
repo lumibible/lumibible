@@ -31,6 +31,10 @@
       "**/node_modules": true,
       "**/dist": true,
       "**/build": true
-    }
+    },
+    "editor.rulers": [
+      100,
+    ],
+    "python.languageServer": "None"
   }
 }
